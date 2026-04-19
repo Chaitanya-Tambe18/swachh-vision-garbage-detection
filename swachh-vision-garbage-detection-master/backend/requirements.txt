@@ -1,0 +1,38 @@
+# Swachh Vision Backend Requirements
+
+# Core Flask
+Flask==2.3.3
+Flask-RESTful==0.3.10
+Flask-CORS==4.0.0
+Flask-Migrate==4.0.5
+
+# Database
+Flask-SQLAlchemy==3.0.5
+psycopg2-binary==2.9.7
+
+# Background Tasks
+celery==5.3.4
+redis==5.0.1
+
+# Data Validation
+marshmallow==3.20.1
+Flask-Marshmallow==0.15.0
+marshmallow-sqlalchemy==0.29.0
+
+# Image/Video Processing
+Pillow==10.0.1
+opencv-python==4.8.1.78
+
+# ML/AI (from existing garbage_detection)
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.0.0
+numpy>=1.24.0
+
+# Email System (built-in libraries: smtplib, ssl, email)
+# No additional packages needed for email functionality
+
+# Utilities
+python-dotenv==1.0.0
+gunicorn==21.2.0
+Werkzeug==2.3.7
